@@ -1,0 +1,22 @@
+{
+  "name": "path-extractor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "preact": "^10.26.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "daisyui": "^5.0.30",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  }
+}

@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-color: oklch(55.009% 0.1963 314.3);
+    --color-primary-color-50: oklch(87.244% 0.05282 316.03);
+    --color-primary-color-100: oklch(83.568% 0.06892 315.9);
+    --color-primary-color-200: oklch(76.064% 0.10348 315.83);
+    --color-primary-color-300: oklch(68.85% 0.13649 315.5);
+    --color-primary-color-400: oklch(61.547% 0.16841 315.03);
+    --color-primary-color-500: oklch(55.009% 0.1963 314.3);
+    --color-primary-color-600: oklch(46.221% 0.16303 314.5);
+    --color-primary-color-700: oklch(36.922% 0.12482 314.5);
+    --color-primary-color-800: oklch(26.862% 0.08492 314.71);
+    --color-primary-color-900: oklch(16.155% 0.03739 317.35);
+    --color-primary-color-950: oklch(8.0111% 0.01641 326.97);
+
+    --color-secondary-color: oklch(71.816% 0.16062 359.91);
+    --color-secondary-color-50: oklch(100% 0 none);
+    --color-secondary-color-100: oklch(100% 0 none);
+    --color-secondary-color-200: oklch(94.051% 0.02819 355.44);
+    --color-secondary-color-300: oklch(86.231% 0.07098 356.15);
+    --color-secondary-color-400: oklch(78.555% 0.11643 357.08);
+    --color-secondary-color-500: oklch(71.816% 0.16062 359.91);
+    --color-secondary-color-600: oklch(64.249% 0.21095 4.4261);
+    --color-secondary-color-700: oklch(58.672% 0.22681 10.318);
+    --color-secondary-color-800: oklch(48.365% 0.18552 9.5895);
+    --color-secondary-color-900: oklch(37.696% 0.1424 8.6035);
+    --color-secondary-color-950: oklch(32.241% 0.11964 7.6637);
+
+    --color-accent: oklch(74.715% 0.20868 329.25);
+    --color-accent-50: oklch(100% 0 none);
+    --color-accent-100: oklch(100% 0 none);
+    --color-accent-200: oklch(94.494% 0.03985 327.16);
+    --color-accent-300: oklch(87.359% 0.09712 328.07);
+    --color-accent-400: oklch(80.5% 0.15529 328.43);
+    --color-accent-500: oklch(74.715% 0.20868 329.25);
+    --color-accent-600: oklch(68.495% 0.26555 330.06);
+    --color-accent-700: oklch(63.656% 0.28146 330.79);
+    --color-accent-800: oklch(52.444% 0.23074 330.52);
+    --color-accent-900: oklch(40.781% 0.17723 330.47);
+    --color-accent-950: oklch(34.729% 0.14828 330.97);
+
+    --color-neutral: oklch(66.226% 0.18302 298.5);
+    --color-neutral-50: oklch(100% 0 none);
+    --color-neutral-100: oklch(100% 0 none);
+    --color-neutral-200: oklch(93.309% 0.03349 302.75);
+    --color-neutral-300: oklch(84.151% 0.08265 301.21);
+    --color-neutral-400: oklch(74.963% 0.13363 300.74);
+    --color-neutral-500: oklch(66.226% 0.18302 298.5);
+    --color-neutral-600: oklch(55.404% 0.23985 294.09);
+    --color-neutral-700: oklch(47.356% 0.2604 287.74);
+    --color-neutral-800: oklch(39.287% 0.21267 288.62);
+    --color-neutral-900: oklch(30.925% 0.16292 289.83);
+    --color-neutral-950: oklch(26.653% 0.13665 290.55);
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: false;
+    prefersdark: false;
+    color-scheme: "light";
+    --color-base-100: oklch(100% 0 0);
+    --color-base-200: oklch(98% 0 0);
+    --color-base-300: oklch(95% 0 0);
+    --color-base-content: oklch(21% 0.006 285.885);
+    --color-primary: #9a42bf;
+    --color-primary-content: oklch(93% 0.034 272.788);
+    --color-secondary: #f274a0;
+    --color-secondary-content: oklch(94% 0.028 342.258);
+    --color-accent: #f274ec;
+    --color-accent-content: oklch(38% 0.063 188.416);
+    --color-neutral: #a374f2;
+    --color-neutral-content: oklch(92% 0.004 286.32);
+    --color-info: oklch(74% 0.16 232.661);
+    --color-info-content: oklch(29% 0.066 243.157);
+    --color-success: oklch(76% 0.177 163.223);
+    --color-success-content: oklch(37% 0.077 168.94);
+    --color-warning: oklch(82% 0.189 84.429);
+    --color-warning-content: oklch(41% 0.112 45.904);
+    --color-error: oklch(71% 0.194 13.428);
+    --color-error-content: oklch(27% 0.105 12.094);
+    --radius-selector: 1rem;
+    --radius-field: 0.5rem;
+    --radius-box: 0.5rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 0;
+    --noise: 0;
+}
