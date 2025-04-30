@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@preact/signals": "^2.0.4",
     "@tailwindcss/vite": "^4.1.4",
     "preact": "^10.26.4",
-    "tailwindcss": "^4.1.4"
+    "tailwindcss": "^4.1.4",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",

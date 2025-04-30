@@ -2,12 +2,14 @@
   "version": "4",
   "specifiers": {
     "npm:@preact/preset-vite@^2.10.1": "2.10.1_@babel+core@7.26.10_vite@6.3.3__picomatch@4.0.2_preact@10.26.5",
+    "npm:@preact/signals@^2.0.4": "2.0.4_preact@10.26.5",
     "npm:@tailwindcss/vite@^4.1.4": "4.1.4_vite@6.3.3__picomatch@4.0.2",
     "npm:daisyui@^5.0.30": "5.0.30",
     "npm:preact@^10.26.4": "10.26.5",
     "npm:tailwindcss@^4.1.4": "4.1.4",
     "npm:typescript@~5.7.2": "5.7.3",
-    "npm:vite@^6.3.1": "6.3.3_picomatch@4.0.2"
+    "npm:vite@^6.3.1": "6.3.3_picomatch@4.0.2",
+    "npm:zod@^3.24.3": "3.24.3"
   },
   "npm": {
     "@ampproject/remapping@2.3.0": {
@@ -306,6 +308,16 @@
         "kolorist",
         "vite",
         "vite-prerender-plugin"
+      ]
+    },
+    "@preact/signals-core@1.8.0": {
+      "integrity": "sha512-OBvUsRZqNmjzCZXWLxkZfhcgT+Fk8DDcT/8vD6a1xhDemodyy87UJRJfASMuSD8FaAIeGgGm85ydXhm7lr4fyA=="
+    },
+    "@preact/signals@2.0.4_preact@10.26.5": {
+      "integrity": "sha512-9241aGnIv7y0IGzaq2vkBMe8/0jGnnmEEUeFmAoTWsaj8q/BW2PVekL8nHVJcy69bBww6rwEy3A1tc6yPE0sJA==",
+      "dependencies": [
+        "@preact/signals-core",
+        "preact"
       ]
     },
     "@prefresh/babel-plugin@0.5.1": {
@@ -844,18 +856,23 @@
     },
     "yallist@3.1.1": {
       "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="
+    },
+    "zod@3.24.3": {
+      "integrity": "sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg=="
     }
   },
   "workspace": {
     "packageJson": {
       "dependencies": [
         "npm:@preact/preset-vite@^2.10.1",
+        "npm:@preact/signals@^2.0.4",
         "npm:@tailwindcss/vite@^4.1.4",
         "npm:daisyui@^5.0.30",
         "npm:preact@^10.26.4",
         "npm:tailwindcss@^4.1.4",
         "npm:typescript@~5.7.2",
-        "npm:vite@^6.3.1"
+        "npm:vite@^6.3.1",
+        "npm:zod@^3.24.3"
       ]
     }
   }
